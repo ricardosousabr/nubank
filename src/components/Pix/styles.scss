@@ -1,12 +1,41 @@
 .pix {
   background: #8921BE;
+  padding: 48px 0;
 
   &__text {
     color: white;
+    font-size: 1.75rem;
   }
 
   &__img {
-    width: 200px;
+    width: 190px;
     height: 200px;
+    margin-bottom: 32px;
+  }
+
+  &__account {
+    margin: 0 16px;
+    padding: 26px;
+    background: white;
+    border-radius: 20px;
+  }
+
+  &__input {
+    border: none;
+    border-bottom: 2px solid rgb(197, 197, 197);
+    margin-bottom: 40px;
+  }
+
+  &__button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:  #8921BE;
+    border-radius: 100px;
+    border: none;
+    padding: 14px;
+    color: white;
+    font-size: 1.25rem;
   }
 }
