@@ -1,12 +1,18 @@
 .link {
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  margin-bottom: 32px;
+  &__text {
 
-  &:hover {
+    display: inline-block;
     text-decoration: none;
     color: white;
+    margin-bottom: 32px;
 
+    &:hover {
+      text-decoration: none;
+      color: white;
+    }
+
+    &--reverse {
+      color: #8921BE;
+    }
   }
 }
