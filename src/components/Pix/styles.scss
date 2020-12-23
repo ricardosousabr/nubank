@@ -2,7 +2,7 @@
   background: #8921BE;
   padding: 48px 0;
 
-  &__text {
+  &__title {
     color: white;
     font-size: 1.75rem;
   }
@@ -20,6 +20,11 @@
     border-radius: 20px;
   }
 
+  &__text {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
   &__input {
     border: none;
     border-bottom: 2px solid rgb(197, 197, 197);
@@ -31,11 +36,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:  #8921BE;
+    background:  #e9e6e6;
     border-radius: 100px;
     border: none;
     padding: 14px;
-    color: white;
-    font-size: 1.25rem;
+    color: rgb(197, 197, 197);
+    font-size: 20px;
   }
 }
