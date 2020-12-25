@@ -10,7 +10,7 @@ function Fgts () {
           <div className="row">
             <div className="col-12">
               <h2 className="fgts__text">Traga seu FGTS e Auxílio Emergencial para o Nubank</h2>
-              <Link />
+              <Link text='helo' />
               <img className="fgts__img" src={FgtsImage} alt=""/>
             </div>
           </div>
