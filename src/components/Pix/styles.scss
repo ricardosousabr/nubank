@@ -1,10 +1,11 @@
 .pix {
   background: #8921BE;
   padding: 48px 0;
+  margin-bottom: 50px;
 
   &__title {
     color: white;
-    font-size: 1.75rem;
+    font-size: 20px;
   }
 
   &__img {
@@ -21,7 +22,7 @@
   }
 
   &__text {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 50px;
   }
 
