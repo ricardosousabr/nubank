@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './styles.scss';
 import Logo from '../../img/logo.png';
 
@@ -8,9 +10,9 @@ function Header() {
         <div className="container">
           <div className="row">
             <div className="col-12">
-                <a href="#">
-                  <img className="header__logo" src={Logo} alt="Logo"/>
-                </a>
+              <a href="#">
+                <img className="header__logo" src={Logo} alt="Logo" />
+              </a>
             </div>
           </div>
         </div>
