@@ -1,27 +1,27 @@
 import React from 'react';
 
 import AccountImg from '../../img/nuconta-inclined.png';
-import { AccountIamge, Text, LinkTitle } from './styles';
+import { AccountSection, AccountIamge, Text, LinkTitle, Div } from './styles';
 import Link from '../Link';
 
 function Account() {
   return (
     <>
-      <div className="container">
+      <AccountSection className="container">
         <div className="row">
-          <div className="col-10">
+          <Div className="col-10">
             <LinkTitle href="#">Conta do Nubank</LinkTitle>
             <Text>
-              Pode chamar ele de roxinho. Além disso, pode chamar ele de
-              moderno, gratuito e prático também.
+              Nossa conta digital com mais de 20 milhões de clientes em todo o
+              Brasil.
             </Text>
-            <Link href="#" text="Saiba mais" inverted />
-          </div>
+            <Link href="#" text="Segura e sem complicações " inverted up />
+          </Div>
           <div className="col-12">
             <AccountIamge src={AccountImg} alt="" />
           </div>
         </div>
-      </div>
+      </AccountSection>
     </>
   );
 }
