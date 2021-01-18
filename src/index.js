@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Pix from './components/Pix';
 import Fgts from './components/Fgts';
 import Account from './components/Account';
+import Card from './components/Card';
 import Footer from './components/Footer';
 
 ReactDOM.render(
@@ -12,6 +13,7 @@ ReactDOM.render(
     <Pix />
     <Fgts />
     <Account />
+    <Card />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root'),
