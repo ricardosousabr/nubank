@@ -6,6 +6,7 @@ import Fgts from './components/Fgts';
 import Account from './components/Account';
 import Card from './components/Card';
 import Rewards from './components/Rewards';
+import Information from './components/Information';
 import Footer from './components/Footer';
 
 ReactDOM.render(
@@ -16,6 +17,7 @@ ReactDOM.render(
     <Account />
     <Card />
     <Rewards />
+    <Information />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root'),
