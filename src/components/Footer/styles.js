@@ -3,6 +3,7 @@ import { colors } from '../../tokens';
 
 export const FooterContainer = styled.footer`
   background: ${colors.dark};
+  padding-left: 16px;
 `;
 
 export const Title = styled.p`
