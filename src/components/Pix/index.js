@@ -11,9 +11,9 @@ function Pix() {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <p className="pix__title">
+              <h2 className="pix__title">
                 Pix: um novo jeito de fazer transferências e pagamentos
-              </p>
+              </h2>
               <Link url="http://localhost:3000/#" text="Saiba como funciona" />
               <div className="text-center">
                 <img className="pix__img" src={PixImage} alt="pix" />
